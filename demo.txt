@@ -1,3 +1,22 @@
-git hub learning
-very important
-git going good
+Main is main branch
+--Git cmd
+Intialization
+$ git init
+$ git remote add origin https://github.com/NivethaSudhahar/gitpractise.git
+$ git remote -v
+Add content
+$ git add .
+$ git commit -m "first commit"
+Authentication
+$ git config user.email "nivethasudhahar@outlook.com"
+$ git config --global user.name "NivethaSudhahar"
+$ git commit -m "first commit"
+Change to main branch
+$ git branch -M main
+Push changes to github
+$ git push origin main
+Make new changes and push to testing branch
+$ git checkout -b "testingbranch" //create new branch
+$ git add .
+$ git commit -m "new line added"
+$ git push origin testingbranch
